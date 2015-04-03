@@ -1,0 +1,24 @@
+{
+  "name": "sushicons",
+  "version": "1.0.0",
+  "description": "A free sushi icon set",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janteuni/sushicons.git"
+  },
+  "keywords": [
+    "icon",
+    "sushi",
+    "font"
+  ],
+  "author": "Jasmine Anteunis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janteuni/sushicons/issues"
+  },
+  "homepage": "https://github.com/janteuni/sushicons"
+}
