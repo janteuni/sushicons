@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/janteuni/sushicons/issues"
   },
-  "homepage": "https://github.com/janteuni/sushicons"
+  "homepage": "https://github.com/janteuni/sushicons",
+  "devDependencies": {
+    "gulp-iconfont": "^1.0.0"
+  }
 }
