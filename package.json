@@ -23,6 +23,7 @@
   "homepage": "https://github.com/janteuni/sushicons",
   "devDependencies": {
     "gulp": "^3.8.11",
-    "gulp-iconfont": "^1.0.0"
+    "gulp-iconfont": "^1.0.0",
+    "gulp-iconfont-css": "0.0.9"
   }
 }
