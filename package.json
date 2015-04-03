@@ -1,0 +1,13 @@
+{
+  "name": "sushicons",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp-iconfont": "^1.0.0",
+    "gulp-iconfont-css": "^0.0.9",
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp-mustache": "^1.0.2",
+    "request": "^2.54.0"
+  }
+}
