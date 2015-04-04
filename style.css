@@ -31,6 +31,7 @@ h1 {
     text-align: center;
     color: #37474F;
     font-size: 56px;
+    margin-bottom: 80px;
 }
 
 /* HEADER */
@@ -124,8 +125,76 @@ header .link i {
     background: rgba(255,255,255,.5);
 }
 
+
+/* INSTALL */
+
+.install {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 860px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.install h2 {
+    font-family: 'Advent Pro', sans-serif;
+    color: #37474F;
+    font-size: 42px;
+}
+
+.install p {
+    font-family: 'Advent Pro', sans-serif;
+    color: #37474F;
+    font-size: 21px;
+}
+
+
+pre {
+    padding: 10px;
+    width: 100%;
+    color: #37474F;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+
+.example {
+    display: flex;
+    align-items: flex-end;
+}
+
+.example i {
+    display: block;
+    margin-right: 16px;
+    color: #37474F;
+}
+
+.i-small {
+    font-size: 21px;
+    width: 21px;
+    height: 21px;
+}
+.i-med {
+    font-size:62px;
+    width: 62px;
+    height: 62px;
+}
+
+.i-large {
+    font-size: 121px;
+    width: 121px;
+    height: 121px;
+}
+
 @media screen and (max-width: 700px) {
-    .container {
+    .container, header {
         width: 100%;
+    }
+    .install, .example {
+        width: 95%;
     }
 }
