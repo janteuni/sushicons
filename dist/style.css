@@ -23,7 +23,7 @@
 	content: "\E001";
 }
 
-.si-full-salmon:before {
+.si-eggs:before {
 	content: "\E002";
 }
 
@@ -35,31 +35,31 @@
 	content: "\E004";
 }
 
-.si-maki-salmon-cucumber:before {
+.si-maki-cucumber:before {
 	content: "\E005";
 }
 
-.si-maki-salmon:before {
+.si-maki:before {
 	content: "\E006";
 }
 
-.si-soja-sauce:before {
+.si-roll:before {
 	content: "\E007";
 }
 
-.si-spring-salmon-avocado:before {
+.si-salmon:before {
 	content: "\E008";
 }
 
-.si-sushi-eggs:before {
+.si-sauce:before {
 	content: "\E009";
 }
 
-.si-sushi-salmon:before {
+.si-shrimp:before {
 	content: "\E00A";
 }
 
-.si-sushi-shrimp:before {
+.si-spring:before {
 	content: "\E00B";
 }
 
