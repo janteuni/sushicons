@@ -20,7 +20,7 @@ gulp.task('iconfont', function(done){
       fontName: fontName
      }))
 	.on('codepoints', function(codepoints, options) {
-		icons = codepoints.map(function(el) { return 'sushicon-' + el.name; });
+		icons = codepoints.map(function(el) { return 'si-' + el.name; });
       })
     .pipe(gulp.dest('dist/font'))
 	.on('end', function(){

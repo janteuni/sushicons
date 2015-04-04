@@ -7,7 +7,7 @@
 		url('font/sushicons.svg#sushicons') format('svg');
 }
 
-[class^="sushicon-"]:before {
+[class^="si-"]:before {
 	font-family: "sushicons";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -19,50 +19,50 @@
 }
 
 
-.sushicon-chopsticks:before {
+.si-chopsticks:before {
 	content: "\E001";
 }
 
-.sushicon-full-salmon:before {
+.si-full-salmon:before {
 	content: "\E002";
 }
 
-.sushicon-futomaki:before {
+.si-futomaki:before {
 	content: "\E003";
 }
 
-.sushicon-lasvegas:before {
+.si-lasvegas:before {
 	content: "\E004";
 }
 
-.sushicon-maki-salmon-cucumber:before {
+.si-maki-salmon-cucumber:before {
 	content: "\E005";
 }
 
-.sushicon-maki-salmon:before {
+.si-maki-salmon:before {
 	content: "\E006";
 }
 
-.sushicon-soja-sauce:before {
+.si-soja-sauce:before {
 	content: "\E007";
 }
 
-.sushicon-spring-salmon-avocado:before {
+.si-spring-salmon-avocado:before {
 	content: "\E008";
 }
 
-.sushicon-sushi-eggs:before {
+.si-sushi-eggs:before {
 	content: "\E009";
 }
 
-.sushicon-sushi-salmon:before {
+.si-sushi-salmon:before {
 	content: "\E00A";
 }
 
-.sushicon-sushi-shrimp:before {
+.si-sushi-shrimp:before {
 	content: "\E00B";
 }
 
-.sushicon-temaki:before {
+.si-temaki:before {
 	content: "\E00C";
 }
