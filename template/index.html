@@ -2,11 +2,18 @@
 <html>
   <head>
 	<link rel="stylesheet" href="https://rawgit.com/janteuni/sushicons/master/dist/style.css">
-    <title>Page title</title>
+	<link rel="stylesheet" href="style.css">
+    <title>Sushicons</title>
   </head>
   <body>
-  {{#icons}}
-  <h1 class="{{.}}"></h1>
-  {{/icons}}
+    <h1>Sushicons</h1>
+    <div class="container">
+        {{#icons}}
+        <div class="icon">
+            <i class="{{.}}"></i>
+            <p>{{.}}</p>
+        </div>
+        {{/icons}}
+    </div>
   </body>
 </html>
