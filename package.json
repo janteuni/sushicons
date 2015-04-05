@@ -24,6 +24,7 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-iconfont": "^1.0.0",
-    "gulp-iconfont-css": "0.0.9"
+    "gulp-iconfont-css": "0.0.9",
+    "gulp-zip": "^3.0.2"
   }
 }
