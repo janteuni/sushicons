@@ -1,0 +1,200 @@
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100,600);
+
+body {
+    background-color: #98C8C6;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    height: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+a:hover{
+    background:#ffcc00;
+    color:#fff;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    color: #37474F;
+    font-size: 56px;
+    margin-bottom: 80px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+header .link {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    padding-top: 13px;
+    margin-right: 7px;
+    margin-top: 7px;
+    text-align: center;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    background-color: #37474F;
+    transition-duration: 250ms;
+}
+
+header .link::before {
+    content  : "";
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width:  50px;
+    height: 53px;
+    background-color: #37474F;
+    z-index: -1;
+}
+
+header .link:hover {
+    transform: translateY(20px);
+}
+
+header .link i {
+    color: white;
+    font-size: 21px;
+}
+
+
+/* ICONS LIB */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+.container i {
+    font-size: 100px;
+    color: #455A64;
+}
+
+.container p {
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    color: #37474F;
+}
+
+.container .icon {
+    width: 200px;
+    height: 200px;
+    padding-top: 21px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(0,0,0,.1) 0 1px 3px;
+    text-align: center;
+    margin: 10px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.sushi-name {
+    font-size: 12px;
+    font-family: monospace;
+    padding: 4px 5px;
+    background: rgba(255,255,255,.5);
+}
+
+
+/* INSTALL */
+
+.install {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 860px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.install h2 {
+    font-family: 'Advent Pro', sans-serif;
+    color: #37474F;
+    font-size: 42px;
+}
+
+.install p {
+    font-family: 'Advent Pro', sans-serif;
+    color: #37474F;
+    font-size: 21px;
+}
+
+
+pre {
+    padding: 10px;
+    width: 100%;
+    color: #37474F;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+
+.example {
+    display: flex;
+    align-items: flex-end;
+}
+
+.example i {
+    display: block;
+    margin-right: 16px;
+    color: #37474F;
+}
+
+.i-small {
+    font-size: 21px;
+    width: 21px;
+    height: 21px;
+}
+.i-med {
+    font-size:62px;
+    width: 62px;
+    height: 62px;
+}
+
+.i-large {
+    font-size: 121px;
+    width: 121px;
+    height: 121px;
+}
+
+@media screen and (max-width: 700px) {
+    .container, header {
+        width: 100%;
+    }
+    .install, .example {
+        width: 95%;
+    }
+}
